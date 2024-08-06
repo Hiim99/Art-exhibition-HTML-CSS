@@ -1,0 +1,59 @@
+
+body{
+    background-image: url(black.jpg);
+}
+    div img{
+    display: block;
+    position: absolute;
+    align-items: center;
+    margin-left: 420px;
+    margin-top: 15px;
+    width: 750px;
+}
+label {
+   
+    color: rgb(6, 39, 68);
+    font-size: 18px;
+}
+.input1 input{
+    text-align: center;
+    width: 450px;
+    font-size: 25px;
+    display: flex;
+}
+#input2 button{
+    margin-top: 40px;
+    margin-left: 180px;
+    background-color: bisque;
+    color: rgb(239, 236, 245);
+    border: 2px solid yellow;
+    border-radius: 10px;
+    position: relative;
+    font-size: 25px;
+    background-color: rgb(26, 3, 48);
+}
+input{
+    position: relative;
+    margin-left: 25px;
+    width: 150px;
+    height: 45px;
+    
+}
+form input {
+    margin-left: 80px;
+}
+output{
+    margin-left: 80px;
+    color: rgb(10, 38, 93);
+    font-size: 25px;
+}
+.formulaire {
+    position: absolute;
+    margin-top: 105px;
+    margin-left: 430px;
+}
+#acceuil img {
+    width: 55px;
+    margin-top: -17%;
+    margin-left: 128%;
+}

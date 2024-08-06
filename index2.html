@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="index2.css" rel="stylesheet" />
+  <title>Reservation</title>
+</head>
+
+<body>
+  <div>
+    <img src="perfect.jpg">
+  </div>
+  <div class="formulaire">
+    <form>
+      <div id="acceuil">
+        <a href="index.html">
+        <img src="blue.png">
+        </a>
+      </div>
+      <div class="input1">
+        <label for="Nom"> Nom </label>
+        <input type="text" placeholder="Entrez votre nom" name="Nom"> </input>
+        <br>
+        <label for="Prénom"> Prenom </label>
+        <input type="text" placeholder="Entrez votre Prénom" name="Prénom"> </input>
+        <br>
+        <label for="Mail"> Mail </label>
+        <input type="email" placeholder="Entrez votre mail" name="Mail"> </input>
+        <br>
+      </div>
+      <br>
+      <label for="Nom"> Prix Par Personne </label>
+      <br>
+    </form>
+    <br>
+    <form oninput="result.value=parseInt(NombreP.value) * parseInt(PrixPlace.value)" > 
+      <input type="number" name="NombreP" value="1" /> 
+      <br>
+      <input name="PrixPlace" value="50Euros" disabled/> 
+      <br>
+      <output name="result" > 50 Euros</output>
+    </form>
+    <div id="input2">
+      <button onclick="alert('Votre reservation est bien confirmée. Veuillez consulter votre mail.\n À Bientôt')"> Reserver </button></a>
+    </div>
+  </div>
+</body>
+
+</html>
